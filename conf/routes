@@ -1,0 +1,6 @@
+# Routes
+GET     /users          controllers.UserController.getUsers
+GET     /users/:id      controllers.UserController.getUser(id: Long)
+POST    /users          controllers.UserController.createUser
+PUT     /users/:id      controllers.UserController.updateUser(id: Long)
+DELETE  /users/:id      controllers.UserController.deleteUser(id: Long)
